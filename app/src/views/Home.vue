@@ -2,6 +2,7 @@
   <div class="home">
     <div class="loading" v-if="!data">
       <h1>Loading ...</h1>
+      <p>Waking up Heroku ... 💤</p>
     </div>
     <div class="content-wrapper">
       <div class="information" v-if="data">
