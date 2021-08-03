@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@300&Dancing+Script&family=Noto+Sans+KR:wght@100;300;700&display=swap");
+
+:root {
+  --color-light: #f0eee4;
+  --color-dark: #716f81;
+  --color-secondary: #b97a95;
+  --color-accent: #f6ae99;
+
+  --font-primary: "Noto Sans KR", sans-serif;
+  --font-heading: "Georama", serif;
+  --font-dancing: "Dancing Script", cursive;
+
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--color-dark);
+  background-color: var(--color-light);
+  line-height: 1;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  -webkit-box-shadow: none !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-dark);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-secondary);
+}
